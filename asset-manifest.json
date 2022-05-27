@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.505fa030.chunk.css",
+    "main.js": "/static/js/main.ab9a74cc.chunk.js",
+    "main.js.map": "/static/js/main.ab9a74cc.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.71a0e9f6.js",
+    "runtime-main.js.map": "/static/js/runtime-main.71a0e9f6.js.map",
+    "static/js/2.2bb1fc65.chunk.js": "/static/js/2.2bb1fc65.chunk.js",
+    "static/js/2.2bb1fc65.chunk.js.map": "/static/js/2.2bb1fc65.chunk.js.map",
+    "static/js/3.573bc1ce.chunk.js": "/static/js/3.573bc1ce.chunk.js",
+    "static/js/3.573bc1ce.chunk.js.map": "/static/js/3.573bc1ce.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.505fa030.chunk.css.map": "/static/css/main.505fa030.chunk.css.map",
+    "static/js/2.2bb1fc65.chunk.js.LICENSE.txt": "/static/js/2.2bb1fc65.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/static/media/Golos-Text_Regular.8f52cab9.woff2",
+    "static/media/arrow_up.c52ee31f.png": "/static/media/arrow_up.c52ee31f.png",
+    "static/media/musicology.56146ffe.png": "/static/media/musicology.56146ffe.png",
+    "static/media/node-js-icon.8635b25e.png": "/static/media/node-js-icon.8635b25e.png",
+    "static/media/personal2.253cee66.jpg": "/static/media/personal2.253cee66.jpg",
+    "static/media/react-icon.73ac128a.png": "/static/media/react-icon.73ac128a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.71a0e9f6.js",
+    "static/js/2.2bb1fc65.chunk.js",
+    "static/css/main.505fa030.chunk.css",
+    "static/js/main.ab9a74cc.chunk.js"
+  ]
+}

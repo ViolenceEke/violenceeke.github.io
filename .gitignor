@@ -1,6 +1,0 @@
-.docz
-**/node_modules/**
-build/*
-build_/*
-.git
-.env
