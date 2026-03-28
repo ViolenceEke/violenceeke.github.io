@@ -1,0 +1,102 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
+
+@layer base {
+  :root {
+    --background: 220 20% 7%;
+    --foreground: 210 20% 92%;
+
+    --card: 220 18% 10%;
+    --card-foreground: 210 20% 92%;
+
+    --popover: 220 18% 10%;
+    --popover-foreground: 210 20% 92%;
+
+    --primary: 172 66% 50%;
+    --primary-foreground: 220 20% 7%;
+
+    --secondary: 220 16% 16%;
+    --secondary-foreground: 210 20% 80%;
+
+    --muted: 220 14% 14%;
+    --muted-foreground: 215 12% 50%;
+
+    --accent: 172 66% 50%;
+    --accent-foreground: 220 20% 7%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 220 14% 18%;
+    --input: 220 14% 18%;
+    --ring: 172 66% 50%;
+
+    --radius: 0.75rem;
+
+    --sidebar-background: 220 18% 10%;
+    --sidebar-foreground: 210 20% 92%;
+    --sidebar-primary: 172 66% 50%;
+    --sidebar-primary-foreground: 220 20% 7%;
+    --sidebar-accent: 220 16% 16%;
+    --sidebar-accent-foreground: 210 20% 80%;
+    --sidebar-border: 220 14% 18%;
+    --sidebar-ring: 172 66% 50%;
+
+    --font-mono: 'JetBrains Mono', monospace;
+    --font-sans: 'Inter', sans-serif;
+
+    --gradient-primary: linear-gradient(135deg, hsl(172 66% 50%), hsl(190 70% 40%));
+    --gradient-card: linear-gradient(145deg, hsl(220 18% 12%), hsl(220 18% 8%));
+    --shadow-glow: 0 0 30px -5px hsl(172 66% 50% / 0.15);
+    --shadow-card: 0 4px 20px -4px hsl(0 0% 0% / 0.4);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: var(--font-sans);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-sans);
+  }
+
+  code, .font-mono {
+    font-family: var(--font-mono);
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-clip-text text-transparent;
+    background-image: var(--gradient-primary);
+  }
+
+  .card-glass {
+    background: var(--gradient-card);
+    box-shadow: var(--shadow-card);
+    @apply border border-border rounded-xl;
+  }
+
+  .glow {
+    box-shadow: var(--shadow-glow);
+  }
+
+  .section-heading {
+    font-family: var(--font-mono);
+    @apply text-sm font-semibold tracking-widest uppercase text-primary mb-8;
+  }
+
+  .tag {
+    @apply inline-flex items-center px-3 py-1 text-xs font-medium rounded-md bg-secondary text-secondary-foreground;
+    font-family: var(--font-mono);
+  }
+}
