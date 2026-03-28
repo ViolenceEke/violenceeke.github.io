@@ -67,6 +67,14 @@ const HeroSection = () => {
               <Send size={16} />
               Написать в Telegram
             </a>
+            <a
+              href="https://www.linkedin.com/in/ilya-tarasenko-065041245/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 px-6 py-3 rounded-lg border border-border text-foreground font-medium text-sm hover:bg-secondary transition-colors"
+            >
+              LinkedIn
+            </a>
           </div>
         </motion.div>
       </div>

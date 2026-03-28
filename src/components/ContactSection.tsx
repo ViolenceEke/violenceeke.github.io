@@ -9,6 +9,11 @@ const contacts = [
     label: "vioekejob@gmail.com",
     href: "mailto:vioekejob@gmail.com",
   },
+  {
+    icon: Globe,
+    label: "LinkedIn",
+    href: "https://www.linkedin.com/in/ilya-tarasenko-065041245/",
+  },
 ];
 
 const ContactSection = () => {
@@ -23,7 +28,7 @@ const ContactSection = () => {
         transition={{ duration: 0.5 }}
         className="card-glass p-6 md:p-8"
       >
-        <div className="grid sm:grid-cols-3 gap-4">
+        <div className="grid sm:grid-cols-2 gap-4">
           {contacts.map(({ icon: Icon, label, href }) => (
             <a
               key={label}
